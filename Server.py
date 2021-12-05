@@ -10,9 +10,7 @@ class Server:
     def ping(self):
         # TODO - Use os module to ping the server
         print("The Server IP is", self.server.ip)
-        filepath == os.path.dirname(os.path.abspath(_file__))
-        os.chdir(filepath)
-
+      
 
         response = os.system("ping -c 1 -w 5 " + self.server_ip + " > /dev/null 2>&1")
 
